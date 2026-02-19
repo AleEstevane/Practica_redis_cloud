@@ -58,4 +58,3 @@ def test_listar_usuarios(conexion):
     nombres = [u["nombre"] for u in usuarios]
     assert "A" in nombres
     assert "B" in nombres
-    

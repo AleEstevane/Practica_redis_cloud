@@ -18,3 +18,4 @@ def obtener_conexion() -> Redis:
     conexion = Redis.from_url(config.url, decode_responses=True)
     conexion.ping()
     return conexion
+
