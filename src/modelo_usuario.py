@@ -89,4 +89,3 @@ def listar_usuarios(conexion: Redis) -> List[Dict[str, Any]]:
             resultado.append(datos)
 
     return resultado
-
