@@ -1,13 +1,14 @@
 import json
 from typing import Any
 from dotenv import load_dotenv
-from cliente_redis import obtener_conexion
-from almacen_usuarios import (
-        crear_usuario_json,
-        leer_usuario_json,
-        actualizar_usuario_json,
-        eliminar_usuario,
-        listar_usuarios,
+
+from .cliente_redis import obtener_conexion
+from .modelo_usuario import (
+    crear_usuario_json,
+    leer_usuario_json,
+    actualizar_usuario_json,
+    eliminar_usuario,
+    listar_usuarios,
 )
 
 # Cargar variables de entorno desde .env para asegurar REDIS_URL
