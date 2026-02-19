@@ -2,8 +2,8 @@ import json
 from typing import Any
 from dotenv import load_dotenv
 
-from .cliente_redis import obtener_conexion
-from .modelo_usuario import (
+from cliente_redis import obtener_conexion
+from modelo_usuario import (
     crear_usuario_json,
     leer_usuario_json,
     actualizar_usuario_json,
